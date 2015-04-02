@@ -1,11 +1,11 @@
 <?php
 /**
- * @link https://github.com/nirvana-msu/yii2-infinite-scroll
+ * @link https://github.com/dlds/yii2-infinite-scroll
  * @copyright Copyright (c) 2014 Alexander Stepanov
  * @license GPL-2.0
  */
 
-namespace nirvana\infinitescroll;
+namespace dlds\infinitescroll;
 
 use Yii;
 use yii\base\Widget;
@@ -155,7 +155,7 @@ class InfiniteScrollPager extends Widget
             $this->pluginOptions['loading'] = [];
         if (is_null(ArrayHelper::getValue($this->pluginOptions['loading'], 'img', null))) {
             $assetManager = $this->view->getAssetManager();     // Publish loader img
-            list ($imgPath, $imgUrl) = $assetManager->publish('@vendor/nirvana-msu/yii2-infinite-scroll/assets/images/ajax-loader.gif');
+            list ($imgPath, $imgUrl) = $assetManager->publish('@vendor/dlds/yii2-infinite-scroll/assets/images/ajax-loader.gif');
             $this->pluginOptions['loading']['img'] = $imgUrl;
         }
     }

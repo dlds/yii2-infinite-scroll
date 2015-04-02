@@ -1,11 +1,11 @@
 <?php
 /**
- * @link https://github.com/nirvana-msu/yii2-infinite-scroll
+ * @link https://github.com/dlds/yii2-infinite-scroll
  * @copyright Copyright (c) 2014 Alexander Stepanov
  * @license MIT
  */
 
-namespace nirvana\infinitescroll;
+namespace dlds\infinitescroll;
 
 use Yii;
 use yii\web\AssetBundle;

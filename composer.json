@@ -1,5 +1,5 @@
 {
-    "name": "nirvana-msu/yii2-infinite-scroll",
+    "name": "dlds/yii2-infinite-scroll",
     "description": "Yii2 extension for infinite-scroll jQuery plugin",
     "keywords": [
         "yii2",
@@ -11,10 +11,14 @@
     "type": "yii2-extension",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/nirvana-msu/yii2-infinite-scroll/issues",
-        "source": "https://github.com/nirvana-msu/yii2-infinite-scroll"
+        "issues": "https://github.com/dlds/yii2-infinite-scroll/issues",
+        "source": "https://github.com/dlds/yii2-infinite-scroll"
     },
     "authors": [
+        {
+            "name": "Jiri Svoboda",
+            "email": "jiri.svoboda@dlds.cz"
+        },
         {
             "name": "Alexander Stepanov",
             "email": "student_vmk@mail.ru"
@@ -26,12 +30,7 @@
     },
     "autoload": {
         "psr-4": {
-            "nirvana\\infinitescroll\\": ""
-        }
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "1.0.x-dev"
+            "dlds\\infinitescroll\\": ""
         }
     }
 }
